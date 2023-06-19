@@ -1,9 +1,9 @@
 # Colorzie
 by Bruno Ratajczyk
 
-Simple Console "dungeon crawler" with map editor
+Proof of concept simple console "dungeon crawler" with map editor
 Objective, get to the gray title while avoiding enemies
-Proof of concept game
+To play the game run the Colorzie.exe shortcut
 
 Menu keybinds:
 W/S/A/D - Change selection Space - Select 
@@ -27,3 +27,5 @@ F/G/H -place selected title
 E + F/G/H - change selected title (112 wall, 32 grass, 144 water, 128 exit)
 I- place selected enemy
 E + I - change enemy selected
+
+Most maps included are more of playtest areas
