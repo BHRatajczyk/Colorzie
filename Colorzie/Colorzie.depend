@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1686775268 source:c:\users\bruno\onedrive\desktop\colorzie\main.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	<conio.h>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<cstdio>
+
+1687149074 source:c:\users\bruno\onedrive\desktop\new folder (3)\colorzie-main\colorzie mainbranch\main.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	<conio.h>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<cstdio>
+
