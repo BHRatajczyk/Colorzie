@@ -1,27 +1,28 @@
 # Colorzie
-by Bruno Ratajczyk
 
-Proof of concept simple console "dungeon crawler" with map editor
-Objective, get to the gray title while avoiding enemies
-To play the game run the Colorzie.exe shortcut
+Proof of concept simple console "dungeon crawler" with map editor.
+
+Objective, get to the gray title while avoiding enemies.
+
+## Manual
 
 Menu keybinds:
-W/S/A/D - Change selection Space - Select 
+W/S/A/D - Change selection Space - Select
 Enter - Exit map/editor
 
 In game keybinds:
-W/S/A/D - Movement 
+W/S/A/D - Movement
 X + W/S/A/D - Shoot
 
-Visual: 
+Visual:
 H/Y - Increase/Decrease cell height
-T/G - Increase/Decrease cell width 
-I - Horizontal cell spacing 
+T/G - Increase/Decrease cell width
+I - Horizontal cell spacing
 O/P - Increase/Decrease vision distance
 
 Editor Keybinds:
-W/S/A/D - Change location of pointer 
-V/B/N - Place selected symbol 
+W/S/A/D - Change location of pointer
+V/B/N - Place selected symbol
 E + V/B/N - change selected symbol
 F/G/H -place selected title
 E + F/G/H - change selected title (112 wall, 32 grass, 144 water, 128 exit)
@@ -29,3 +30,24 @@ I- place selected enemy
 E + I - change enemy selected
 
 Most maps included are more of playtest areas
+
+## Running binary
+
+To play the game use `Colorzie.exe - Shortcut.lnk` or
+
+```shell
+ .\Colorzie\bin\Release\Colorzie.exe
+```
+
+## Building and running the project from the source
+
+Build on Windows machine requires configured [CMake](https://cmake.org/download/):
+
+```shell
+cmake .
+cmake --build .
+```
+
+## Authors
+
+* **David Ratajczyk** - [@BHRatajczyk](https://github.com/BHRatajczyk)

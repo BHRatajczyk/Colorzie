@@ -103,14 +103,6 @@ char buttonChar=button[0];
 if(GetKeyState(buttonChar) & 0x8000)return true;
 else return false;
 }
-typedef struct _CONSOLE_FONT_INFOEX{//font
-    ULONG cbSize;
-    DWORD nFont;
-    COORD dwFontSize;
-    UINT  FontFamily;
-    UINT  FontWeight;
-    WCHAR FaceName[LF_FACESIZE];
-}CONSOLE_FONT_INFOEX, *PCONSOLE_FONT_INFOEX;
 #ifdef __cplusplus
 extern "C" {
 #endif
