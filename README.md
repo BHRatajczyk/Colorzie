@@ -1,5 +1,5 @@
 # Colorzie
-by Bruno Ratajczyk
+by Dawid Ratajczyk
 
 Proof of concept simple console "dungeon crawler" with map editor
 Objective, get to the gray title while avoiding enemies
